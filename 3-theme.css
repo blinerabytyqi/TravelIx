@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(rgba(0,0,50,0.2),rgba(0,0,50,0.2)),url(backgr.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+
+#rezervimi {
+    margin-left:620px;
+    margin-top:30px;
+    color:white;
+    font-size:40px;
+}
+#resForm {
+  max-width: 400px;
+  padding: 15px;
+  background: transparent;
+  font-size:16px;
+  text-align:center;
+  margin-left:550px; 
+  margin-top:1px;   
+  color:white;
+}
+#resForm label, #resForm input, #resForm select {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+
+#resForm input[type="submit"] {
+    background-color:rgba(59,106,152,0.9);
+  padding:10px;
+    margin-left:0px;
+    color:white;
+    cursor:pointer;
+    border: 1px solid white;
+    margin-top:20px;
+    
+}
+
+#resForm input[type="submit"]:hover{
+    background-color:white;
+    color:rgba(76,121,162,255);
+}
+div.ok, div.err { 
+  padding: 5px; 
+  font-weight: bold;
+ 
+}
+div.ok { 
+  background: white; 
+  border: 1px solid white;
+  color:rgba(28,57,135,255);
+    padding-left:690px;
+}
+div.err { 
+  background: blue; 
+  border: 1px solid blue;
+}
+

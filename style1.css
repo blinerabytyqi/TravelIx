@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(backgr.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+
+
+.container {
+    margin:200px;
+    border:1px solid white;
+}
+
+.login-left {
+    padding:100px;
+    padding-left:450px;
+    color:white;
+    font-size:23px;
+}
+
+.login-left input[type="text"]{
+    padding:8px;
+    width:25%;
+}
+
+.login-left input[type="password"]{
+    padding:8px;
+    width:25%;
+}
+
+.login-left button[type="submit"]{
+    background: transparent;
+    color:white;
+    padding:10px;
+    border:1px solid white;
+    cursor: pointer;
+    margin-top:10px;
+}
+
+
+.login-right{
+    
+     padding:100px;
+    margin-top:-396px;
+    color:white;
+    font-size:23px;
+    margin-left:300px;
+    margin-bottom:-100px;
+}
+
+.login-right input[type="text"]{
+    padding:8px;
+    width:55%;
+}
+
+.login-right input[type="password"]{
+    padding:8px;
+    width:55%;
+}
+.login-right button[type="submit"]{
+    background: transparent;
+    color:white;
+    padding:10px;
+    border:1px solid white;
+    cursor: pointer;
+    margin-top:10px;
+}
+#he {
+    margin-bottom:5px;
+}
+
+#divborder{
+    border:1px solid white;
+    margin-top:100px;
+    
+}
